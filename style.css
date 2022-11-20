@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(176, 66, 127);
+    height: fit-content;
+}
+
+.header {
+    display: flex;
+    height: 100px;
+}
+
+
+.headeritem {
+    display: flex;
+    align-items: center;
+}
+
+
+.headeritem, .headerlogo, .headerlink, .section1 {
+    flex: 1;
+
+}
+
+.headerlogo {
+}
