@@ -1,32 +1,191 @@
 body {
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .section1 {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: rgb(176, 66, 127);
+    align-items: center;
+    background-color: #b4c8c4;
     height: fit-content;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
-    height: 100px;
+    height: 150px;
+    align-items: center;
+    width: 70%;
+}
+.herobig {
+    font-size: 85pt;
+}
+
+img {
+    border-radius: 25px;
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+
 }
 
 
 .headeritem {
     display: flex;
-    align-items: center;
 }
 
 
-.headeritem, .headerlogo, .headerlink, .section1 {
+4
+
+.headerlink {
+    text-align: right;
+}
+
+.headeritem, .headerlogo, .headerlink, .section1, .hero{
     flex: 1;
 
 }
 
 .headerlogo {
+}
+
+.hero {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    min-height: 500px;
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 50px
+}
+
+.heroright {
+    width: 500px;
+}
+
+
+.heroleft {
+    flex: 1;
+}
+
+.herobig {
+}
+
+.centeredheader {
+    text-align: center;
+    flex:1;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    font-size: 75px;
+}
+
+.section2 {
+    background-color:#DADED4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-container {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-content: space-between;
+    gap: 150px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.box {
+    background-color: #DADED4;
+    min-width: 150px;
+    min-height: 150px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+
+.subtext {
+    width: 150px;
+    text-align: center;
+}
+
+
+
+
+.section3 {
+    background-color:  #69806c;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.flex-container2 {
+    margin: 150px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.quotedperson {
+    align-self: flex-end;
+}
+
+
+.section4 {
+    background-color: #DADED4;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.calltoaction {
+    padding: 40px;
+    width: 40%;
+    display: flex;
+    flex: 1;
+    background-color:  #b4c8c4;
+    margin: 80px;
+    border-radius: 25px;
+}
+
+.left {
+    width: 70%;
+    flex: 1;
+}
+
+.right {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+h3, h2, h1, p {
+    color:#39603D;
+}
+
+.inspiringquote, .trust {
+    color: #ffff
+}
+
+.inspiringquote {
+    font-size: 30pt;
+}
+
+.trust {
+    font-size: ;
 }
